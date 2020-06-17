@@ -1,4 +1,33 @@
-//Business Logic for player
+//business Logic
+function Player(scoreTotal, roundTotal){
+  this.scoreTotal = 0;
+  this.roundTotal =0;
+}
+
+function playerOne();
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Business Logic for player
 function Player(name, scoreTotal, roundTotal, isActive, diceRoll) {
   this.name = name;
   this.scoreTotal = 0;
@@ -15,7 +44,8 @@ Player.prototype.Roll = function () {
     this.diceRoll = 1;
     alert("you rolled 1");
     console.log("you rolled 1")
-
+  } else {
+    alert("you didn't roll a 1");
     console.log("you rolled something else")
   }
   return this.diceRoll
